@@ -1,0 +1,847 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  /* NAVBAR START */
+  #navbar .navbar-toggler {
+    background: #e6ca48;
+  }
+  .nav-item {
+    margin: 0 auto;
+  }
+  #navbar .nav-link {
+    font-weight: 500;
+  }
+  #navbar .nav-link {
+    padding-bottom: 5px;
+  }
+
+  /* NAVBAR END */
+
+  /* BANNER SECTION START */
+
+  #banner {
+    padding: 70px 0;
+  }
+  #banner .content .frist-line {
+    font-size: 26px;
+    line-height: 5px;
+    padding: 0px 0 0 45px;
+  }
+  #banner .content .second-line {
+    font-size: 58px;
+  }
+  #banner .content p {
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 20px;
+  }
+  #banner .content a {
+    font-size: 11px;
+  }
+
+  /* BANNER SECTION END */
+
+  /* ABOUT FOOD START */
+
+  #about-food {
+    padding: 85px 0;
+  }
+  #about-food .content {
+    text-align: center;
+    padding-left: 230px;
+  }
+  #about-food .content h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 28px;
+    text-transform: capitalize;
+  }
+  #about-food .content i {
+    font-size: 15px;
+  }
+  #about-food .content p {
+    font-size: 10px;
+    padding: 2px 0 0 0;
+    letter-spacing: 0px;
+  }
+  #about-food .content a {
+    color: #3e5831;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 7px 22px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+
+  /* ABOUT FOOD END */
+
+  /* INFORMATION SECTION START */
+
+  #info .content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 30px 0px 0px 0;
+  }
+  #info .content p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+  /* INFORMATION SECTION END */
+
+  /* OUR CHEF SECTION START */
+  #chef {
+    padding-bottom: 5px;
+  }
+  #chef .text-content h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin: -425px 0 0 0;
+  }
+  #chef .text-content h4 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 5px 0 30px 0;
+  }
+  #chef .box {
+    width: 273px;
+    height: 507px;
+    background-color: #537543;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  #chef .box p {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  #chef .end-text p {
+    text-align: center;
+    font-size: 11px;
+    padding: 0px 0 0 0;
+  }
+
+  /* OUR CHEF SECTION END */
+
+  /* FOOD MAKING SECTION START */
+  #food-making {
+    padding: 55px 0;
+  }
+
+  #food-making .image {
+    width: 352px;
+    height: 274px;
+    margin-left: 115px;
+    margin: 0 auto;
+  }
+  .food-making-text {
+    text-align: center;
+  }
+  #food-making .food-making-text h3 {
+    font-size: 28px;
+    padding: 0 0 15px 0;
+  }
+  #food-making .food-making-text p {
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  #food-making .food-making-text a {
+    font-size: 12px;
+  }
+
+  /* FOOD MAKING SECTION END */
+
+  /* Testimonial SECTION START */
+
+  #Testimonial .carousel-item h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 58px;
+  }
+  #Testimonial .carousel-item p {
+    font-size: 14px;
+  }
+  #Testimonial .carousel-item h3 {
+    font-size: 17px;
+  }
+
+  /* Testimonial SECTION END */
+
+  /* OUR MENU SECTION START */
+
+  #our-menu h2 {
+    font-size: 48px;
+    padding: 0;
+  }
+  #our-menu h4 {
+    font-size: 19px;
+  }
+  #our-menu p {
+    font-size: 9px;
+  }
+
+  /* OUR MENU SECTION END */
+
+  /* MENU WITH PRICE SECTION START */
+
+  #menu .content {
+    display: flex;
+    justify-content: center;
+  }
+  #menu .img {
+    margin: 0 auto;
+  }
+  #menu .img-fluid {
+    width: 270px;
+    height: 232px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #menu .text {
+    margin: 50px 75px 0px 0px;
+  }
+  #menu .text h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  #menu .text h3 {
+    font-size: 23px;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  /*  MENU WITH PRICE SECTION END */
+
+  /* Subscribe And Follow SECTION START */
+
+  #Subscribe .Subscribe-text h2 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Berkshire Swash", cursive;
+    padding: 0 0 10px 0;
+  }
+  #Subscribe .Subscribe-text p {
+    font-size: 12px;
+  }
+  #Subscribe .form-control {
+    width: 315px;
+  }
+  #Subscribe .container a {
+    padding: 7px 104px;
+  }
+
+  /* Subscribe And Follow SECTION END */
+
+  /* FOOTER SECTION START */
+
+  #footer .icon {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  #footer p {
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: center;
+  }
+  #footer .icon a {
+    font-size: 20px;
+    font-weight: 800;
+    color: #537942;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transition: 0.4s;
+  }
+  #footer .link a {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    padding: 1px 0;
+    transition: 0.4s;
+  }
+
+  /* FOOTER SECTION END */
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* NAVBAR START */
+
+  #navbar .nav-link {
+    text-align: center;
+    margin: 7px 0;
+  }
+  #navbar .d-flex {
+    margin: 20px 0;
+  }
+  #navbar .navbar-toggler {
+    background: #e6ca48;
+  }
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar .form-control {
+    background: #e6ca48;
+    border: transparent;
+    margin-left: 16px;
+    padding: 10px;
+    width: 300px;
+  }
+
+  /* NAVBAR END */
+
+  /* BANNER SECTION START */
+
+  #banner {
+    padding: 70px 0;
+  }
+  #banner .content .frist-line {
+    font-size: 28px;
+    line-height: 1px;
+    padding: 0 0 0 47px;
+  }
+  #banner .content .second-line {
+    font-size: 60px;
+  }
+  #banner .content p {
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 9px;
+  }
+  #banner .content a {
+    font-size: 13px;
+  }
+
+  /* BANNER SECTION END */
+
+  /* ABOUT FOOD START */
+  #about-food {
+    padding: 78px 0;
+  }
+  #about-food .content {
+    text-align: center;
+    padding: 0 0 0 247px;
+  }
+  #about-food .content h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+  #about-food .content i {
+    font-size: 16px;
+    margin: 30px 0;
+  }
+  #about-food .content p {
+    font-size: 11px;
+    padding: 6px 0;
+    letter-spacing: 0px;
+  }
+  #about-food .content a {
+    font-size: 12px;
+  }
+  /* ABOUT FOOD END */
+
+  /* INFORMATION SECTION START */
+
+  #info .content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 30px 0 4px 0;
+  }
+  #info .content p {
+    font-size: 15px;
+    color: #fff;
+    padding-bottom: 24px;
+  }
+
+  /* INFORMATION SECTION END */
+
+  /* OUR CHEF SECTION START */
+
+  #chef .text-content h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 47px;
+    text-transform: capitalize;
+    margin: -425px 0 0 0;
+  }
+  #chef .text-content h4 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 5px 0 35px 0;
+  }
+  #chef .box {
+    width: 300px;
+    height: 538px;
+    background-color: #537543;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 40px;
+  }
+  #chef .box h3 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 10px 0 0 0;
+  }
+  #chef .box p {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  #chef .end-text p {
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 0 0 0;
+  }
+
+  /* OUR CHEF SECTION END */
+
+  /* FOOD MAKING SECTION START */
+
+  #food-making .image {
+    width: 440px;
+    height: 340px;
+    margin-left: 115px;
+    margin: 0 auto;
+  }
+  .food-making-text {
+    text-align: center;
+  }
+  #food-making .food-making-text h3 {
+    font-size: 28px;
+    padding: 0 0 15px 0;
+  }
+  #food-making .food-making-text p {
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  #food-making .food-making-text a {
+    font-size: 12px;
+  }
+
+  /* FOOD MAKING SECTION END */
+
+  /* Testimonial SECTION START */
+
+  #Testimonial .carousel-item h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 65px;
+  }
+  #Testimonial .carousel-item p {
+    font-size: 14px;
+  }
+  #Testimonial .carousel-item h3 {
+    font-size: 18px;
+  }
+
+  /* Testimonial SECTION END */
+
+  /* OUR MENU SECTION START */
+
+  #our-menu h2 {
+    font-size: 55px;
+    padding: 0;
+  }
+  #our-menu h4 {
+    font-size: 23px;
+  }
+  #our-menu p {
+    font-size: 15px;
+  }
+
+  /* OUR MENU SECTION END */
+
+  /* MENU WITH PRICE SECTION START */
+
+  #menu .content {
+    display: flex;
+    justify-content: center;
+  }
+  #menu .img {
+    margin: 0 auto;
+  }
+  #menu .img-fluid {
+    width: 300px;
+    height: 256px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #menu .text {
+    margin: 50px 26px 0px 0px;
+  }
+  #menu .text h4 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  #menu .text h3 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  /*  MENU WITH PRICE SECTION END */
+
+  /* Subscribe And Follow SECTION START */
+
+  #Subscribe .Subscribe-text h2 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Berkshire Swash", cursive;
+    padding: 0 0 10px 0;
+  }
+  #Subscribe .Subscribe-text p {
+    font-size: 12px;
+  }
+  #Subscribe .form-control {
+    width: 315px;
+  }
+  #Subscribe .container a {
+    padding: 7px 104px;
+  }
+
+  /* Subscribe And Follow SECTION END */
+
+  /* FOOTER SECTION START */
+
+  #footer .icon {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+  }
+  #footer p {
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: center;
+  }
+  #footer .icon a {
+    font-size: 20px;
+    font-weight: 800;
+    color: #537942;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transition: 0.4s;
+  }
+  #footer .link a {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    padding: 1px 0;
+    transition: 0.4s;
+  }
+
+  /* FOOTER SECTION END */
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* NAVBAR START */
+
+  #navbar .nav-link {
+    text-align: center;
+    margin: 7px 0;
+  }
+  #navbar .d-flex {
+    margin: 20px 0;
+  }
+  #navbar .navbar-toggler {
+    background: #e6ca48;
+  }
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar .form-control {
+    background: #e6ca48;
+    border: transparent;
+    margin-left: 16px;
+    padding: 10px;
+    width: 300px;
+  }
+  /* NAVBAR END */
+
+  .back-to-top {
+    width: 45px;
+    height: 45px;
+    background-color: #000;
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    text-align: center;
+    display: none;
+    transition: 0.4s;
+    z-index: 9999;
+  }
+  .back-to-top i {
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+  }
+  .back-to-top:hover {
+    background: transparent;
+  }
+
+  /* BANNER SECTION START */
+
+  #banner .content .frist-line {
+    font-size: 36px;
+    line-height: 0px;
+    padding: 0 0 0px 53px;
+  }
+  #banner .content .second-line {
+    font-size: 76px;
+  }
+  #banner .content p {
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  #banner .content a {
+    color: #3e5831;
+    font-size: 15px;
+    padding: 10px 30px;
+    background: #e6ca48;
+    border: 1px solid #e6ca48;
+    border-radius: 30px;
+    margin: 0 0 0 20px;
+    transition: 0.4s;
+  }
+
+  /* BANNER SECTION END */
+
+  /* ABOUT FOOD START */
+
+  #about-food .content h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 36px;
+    text-transform: capitalize;
+  }
+  #about-food .content i {
+    font-size: 22px;
+    margin: 30px 0;
+  }
+  #about-food .content p {
+    font-size: 13px;
+    padding: 9px 0;
+    letter-spacing: 0px;
+  }
+  #about-food .content a {
+    color: #3e5831;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 30px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+
+  /* ABOUT FOOD END */
+
+  /* INFORMATION SECTION START */
+
+  #info .content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 30px 0 10px 0;
+  }
+  #info .content p {
+    font-size: 13px;
+    color: #fff;
+  }
+
+  /* INFORMATION SECTION END */
+
+  /* OUR CHEF SECTION START */
+
+  #chef .text-content h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: -425px 0 0 0;
+  }
+  #chef .text-content h4 {
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 5px 0 0 0;
+  }
+  #chef .box h3 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 10px 0 0 0;
+  }
+  #chef .box p {
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  #chef .end-text p {
+    text-align: center;
+    font-size: 14px;
+    padding: 50px 0 0 0;
+  }
+
+  /* OUR CHEF SECTION END */
+
+  /* FOOD MAKING SECTION START */
+
+  #food-making .image {
+    margin-left: 112px;
+  }
+  #food-making .food-making-text {
+    text-align: center;
+  }
+  #food-making .food-making-text h3 {
+    font-size: 30px;
+    padding: 16px 0 9px 0;
+  }
+  #food-making .food-making-text p {
+    font-size: 17px;
+    padding-bottom: 15px;
+  }
+  #food-making .food-making-text a {
+    color: #3e5831;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 30px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+
+  /* FOOD MAKING SECTION END */
+
+  /* Testimonial SECTION START */
+
+  #Testimonial .carousel-item h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 74px;
+  }
+  #Testimonial .carousel-item p {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+
+  /* Testimonial SECTION END */
+
+  /* OUR MENU SECTION START */
+
+  #our-menu h2 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: "Berkshire Swash", cursive;
+    padding: 0px 0 1px 0;
+  }
+  #our-menu h4 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+  }
+  #our-menu p {
+    font-size: 11px;
+  }
+
+  /* OUR MENU SECTION END */
+
+  /* Subscribe And Follow SECTION START */
+
+  #Subscribe .Subscribe-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Berkshire Swash", cursive;
+    padding: 0 0 10px 0;
+  }
+  #Subscribe .Subscribe-text p {
+    font-size: 13px;
+  }
+  #Subscribe .form-control {
+    width: 420px;
+  }
+  #Subscribe .container a {
+    padding: 7px 158px;
+  }
+
+  /* Subscribe And Follow SECTION END */
+
+  /* FOOTER SECTION START */
+
+  #footer p {
+    font-size: 15px;
+    padding: 15px 0;
+    text-align: center;
+  }
+  #footer .icon {
+    display: flex;
+    justify-content: center;
+  }
+  #footer .icon a {
+    font-size: 20px;
+    font-weight: 800;
+    color: #537942;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -15px 8px;
+    transition: 0.4s;
+  }
+  #footer .link {
+    margin-top: 5px;
+  }
+  #footer .link a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    padding: 4px 0;
+    transition: 0.4s;
+  }
+
+  #footer .col-lg-3.col-md-6 {
+    padding-bottom: 33px;
+  }
+
+  /* FOOTER SECTION END */
+}

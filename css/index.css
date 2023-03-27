@@ -1,0 +1,509 @@
+/* COMMON CSS START */
+
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+.carousel-indicators .active {
+  background-color: #f1cb38;
+}
+
+/* COMMON CSS END */
+
+/* NAVBAR START */
+
+#navbar {
+  width: 100%;
+  background-color: #537543;
+}
+#navbar .nav-link {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 5px 22px 0 22px;
+  transition: 0.4s;
+}
+#navbar .nav-link:hover {
+  color: #e6ca48;
+}
+#navbar .form-control {
+  background: #e6ca48;
+  border: transparent;
+  margin-left: 16px;
+  padding: 10px;
+}
+#navbar .fa-sharp {
+  margin: 9px 0px 0 -45px;
+  color: #fff;
+  font-size: 24px;
+  transition: 0.4s;
+}
+#navbar .fa-sharp:hover {
+  color: #537543;
+}
+
+/* NAVBAR END */
+
+/* BACK TO TOP BUTTON START */
+
+.back-to-top {
+  width: 45px;
+  height: 45px;
+  background-color: #000;
+  position: fixed;
+  right: 40px;
+  bottom: 30px;
+  border-radius: 30px;
+  border: 1px solid #000;
+  text-align: center;
+  display: none;
+  transition: 0.4s;
+  z-index: 9999;
+}
+.back-to-top i {
+  color: #fff;
+  font-size: 20px;
+  line-height: 45px;
+}
+.back-to-top:hover {
+  background: transparent;
+}
+
+/* BACK TO TOP BUTTON END */
+
+/* BANNER SECTION START */
+
+#banner {
+  background-image: url(../image/group1-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 175px 0;
+  width: 100%;
+}
+#banner .content h2,
+#banner .content h3 {
+  font-family: "Berkshire Swash", cursive;
+  color: #fff;
+}
+#banner .content .second-line {
+  font-size: 97px;
+}
+#banner .content .frist-line {
+  font-size: 47px;
+  line-height: 5px;
+  padding: 0 0 0 62px;
+}
+#banner .content p {
+  font-size: 24px;
+  color: #fff;
+  padding: 25px 20px;
+}
+#banner .content a {
+  color: #3e5831;
+  font-size: 18px;
+  padding: 10px 30px;
+  background: #e6ca48;
+  border: 1px solid #e6ca48;
+  border-radius: 30px;
+  margin: 0 0 0 20px;
+  transition: 0.4s;
+}
+#banner .content a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+/* BANNER SECTION END */
+
+/* ABOUT FOOD START */
+
+#about-food {
+  background-image: url(../image/group2-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+  color: #3e5831;
+  width: 100%;
+}
+#about-food .content {
+  text-align: center;
+}
+#about-food .content h2 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 55px;
+  text-transform: capitalize;
+}
+#about-food .content i {
+  font-size: 29px;
+  margin: 30px 0;
+}
+#about-food .content p {
+  font-size: 18px;
+  padding: 20px 0;
+  letter-spacing: 1px;
+}
+#about-food .content a {
+  color: #3e5831;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 30px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+#about-food .content a:hover {
+  background: #3e5831;
+  color: #fff;
+}
+
+/* ABOUT FOOD END */
+
+/* INFORMATION SECTION START */
+
+#info {
+  background: #537543;
+  text-align: center;
+  padding: 50px 0 30px 0;
+  position: relative;
+}
+#info .content h4 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 30px 0 10px 0;
+}
+#info .content p {
+  font-size: 16px;
+  color: #fff;
+}
+
+#info #particles-js {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* INFORMATION SECTION END */
+
+/* OUR CHEF SECTION START */
+
+#chef {
+  background-image: url(../image/group4-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  padding: 510px 0 70px 0;
+}
+#chef .text-content {
+  text-align: center;
+}
+#chef .text-content h2 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 70px;
+  text-transform: capitalize;
+  margin: -425px 0 0 0;
+}
+#chef .text-content h4 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding: 5px 0 0 0;
+}
+#chef .box {
+  width: 330px;
+  height: 580px;
+  background-color: #537543;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 80px;
+}
+#chef .box .img-fluid {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#chef .box h3 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 10px 0 0 0;
+}
+#chef .box p {
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+/* OUR CHEF SECTION END */
+
+/* FOOD MAKING SECTION START */
+
+#food-making {
+  background-image: url(../image/group5-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  padding: 100px 0;
+}
+#food-making .image {
+  width: 440px;
+  height: 340px;
+  margin-left: 115px;
+}
+#food-making .food-making-text h3 {
+  font-size: 38px;
+  padding: 0 0 15px 0;
+}
+#food-making .food-making-text p {
+  font-size: 19px;
+  padding-bottom: 40px;
+}
+#food-making .food-making-text a {
+  color: #3e5831;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 30px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+#food-making .food-making-text a:hover {
+  background: #3e5831;
+  color: #fff;
+}
+
+/* FOOD MAKING SECTION END */
+
+/* Testimonial SECTION START */
+
+#Testimonial {
+  background: #3f763f;
+  width: 100%;
+  padding: 85px 0 115px;
+}
+#Testimonial .carousel-item {
+  text-align: center;
+  color: #fff;
+}
+#Testimonial .carousel-item h2 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 100px;
+}
+#Testimonial .carousel-item p {
+  font-size: 20px;
+}
+#Testimonial .carousel-indicators {
+  margin: -70px 0;
+}
+#Testimonial .carousel-indicators [data-bs-target] {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+/* Testimonial SECTION END */
+
+/* OUR MENU SECTION START */
+
+#our-menu {
+  background-image: url(../image/menu\ group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: #537942;
+  padding: 100px 0;
+  text-align: center;
+  width: 100%;
+}
+#our-menu h2 {
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Berkshire Swash", cursive;
+  padding: 0px 0 16px 0;
+}
+#our-menu h4 {
+  font-size: 29px;
+  font-weight: 400;
+  padding: 0 0 10px 0;
+}
+#our-menu p {
+  font-size: 18px;
+}
+
+/* OUR MENU SECTION END */
+
+/* MENU WITH PRICE SECTION START */
+
+#menu {
+  background-image: url(../image/menu\ group2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 100px 0;
+  color: #fff;
+}
+#menu .img-fluid,
+.text {
+  float: left;
+}
+#menu .img-fluid {
+  width: 348px;
+  height: 300px;
+}
+#menu .text {
+  margin: 50px 0 0px 0px;
+}
+#menu .text h4 {
+  font-size: 34px;
+  font-weight: 700;
+}
+#menu .text h3 {
+  font-size: 35px;
+}
+#menu .carousel-indicators {
+  margin: -70px 0;
+}
+#menu .carousel-indicators [data-bs-target] {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+/* MENU WITH PRICE SECTION END */
+
+/* Subscribe And Follow SECTION START */
+
+#Subscribe {
+  background: #fff;
+  text-align: center;
+  padding: 80px 0;
+  color: #537942;
+}
+#Subscribe .Subscribe-text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Berkshire Swash", cursive;
+  padding: 0 0 10px 0;
+}
+#Subscribe .Subscribe-text p {
+  font-size: 19px;
+}
+#Subscribe .form-control {
+  display: block;
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #537942;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 18px;
+  margin-top: 38px;
+  margin-bottom: 20px;
+  border: 2px solid #537942;
+}
+#Subscribe .form-control::placeholder {
+  color: #537942;
+}
+#Subscribe .container a {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #537942;
+  border: 2px solid #537942;
+  padding: 7px 195px;
+  border-radius: 30px;
+  color: #ffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+#Subscribe .container a:hover {
+  background-color: transparent;
+  color: #537942;
+}
+
+/* Subscribe And Follow SECTION END */
+
+/* FOOTER SECTION START */
+
+#footer {
+  background: #537942;
+  width: 100%;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+}
+#footer h3 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Berkshire Swash", cursive;
+}
+#footer p {
+  font-size: 15px;
+  padding: 15px 0;
+  /* text-align: left; */
+}
+#footer .icon {
+  display: flex;
+  margin-left: 0px;
+}
+#footer .icon a {
+  font-size: 25px;
+  font-weight: 800;
+  color: #537942;
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  transition: 0.4s;
+}
+#footer .icon a:hover {
+  background: #e6ca48;
+  color: #fff;
+}
+#footer .link {
+  margin-top: 16px;
+}
+#footer .link a {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  padding: 4px 0;
+  transition: 0.4s;
+}
+#footer .link a:hover {
+  color: #e6ca48;
+}
+
+/* FOOTER SECTION END */
